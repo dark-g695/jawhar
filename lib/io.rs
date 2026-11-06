@@ -31,7 +31,7 @@ pub fn print(s: &str) {
 
 pub fn println(s: &str) {
     print(s);
-    print("\n");
+    print("\r\n");
 }
 
 #[cfg(any(target_arch = "x86", target_arch = "x86_64"))]

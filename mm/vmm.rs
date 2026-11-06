@@ -1,1 +1,5 @@
-pub fn init() {}
+#![no_std]
+
+pub fn vmm_init() {
+    .
+}

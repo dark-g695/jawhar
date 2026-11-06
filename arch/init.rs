@@ -4,7 +4,7 @@
 #[path = "mod.rs"]
 mod arch;
 
-#[path = "../drives/vga/io.rs"]
+#[path = "../drives/lib/io.rs"]
 mod io;
 
 #[path = "../drives/vga/tty.rs"]

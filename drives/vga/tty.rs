@@ -10,4 +10,5 @@ pub fn tty()
     loop {
         let ch = io::gets(&mut buf);
     }
+    return 0;
 }
